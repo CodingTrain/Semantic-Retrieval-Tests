@@ -1,0 +1,7 @@
+.env
+.DS_Store
+node_modules
+embeddings/
+transcripts/
+*.json
+*.zip
