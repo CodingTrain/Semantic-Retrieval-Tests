@@ -25,8 +25,11 @@ This repository features the testing code (and probably final code) we used for 
 }
 ```
 
-However, the chunks array is currently not used. So this can be left out. 3. Create a `embeddings` directory for the embeddings of each transcript to be written to 4. Run `node embeddings-transformers.js` to run the script that generates the embeddings.
-All embeddings should now be in the embeddings folder, as well as an `embeddings.json` file being present in the current working directory. This `embeddings.json` file is the combination of all embeddings generated from the transcripts.
+However, the chunks array is currently not used. So this can be left out.
+
+3. Create a `embeddings` directory for the embeddings of each transcript to be written to
+4. Run `node embeddings-transformers.js` to run the script that generates the embeddings.
+   All embeddings should now be in the embeddings folder, as well as an `embeddings.json` file being present in the current working directory. This `embeddings.json` file is the combination of all embeddings generated from the transcripts.
 
 ### Semantic retrieval from embeddings
 
