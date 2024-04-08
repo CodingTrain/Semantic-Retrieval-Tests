@@ -5,3 +5,5 @@ embeddings/
 transcripts/
 *.json
 *.zip
+!package.json
+!package-lock.json
