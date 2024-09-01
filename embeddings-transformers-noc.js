@@ -33,7 +33,7 @@ const fullOutput = [];
     }
 
     // Save the embeddings to a file
-    const fileOut = `embeddings/${file}`;
+    const fileOut = `embeddings/${file.replace('.md', '.json')}`;
     fs.writeFileSync(fileOut, JSON.stringify(output));
 
     console.log(
